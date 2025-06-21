@@ -7,11 +7,10 @@ Enable Thermalright TRCC app on system startup
   - `schtasks /create ^
   /tn "\Thermalright\ThermalrightControl" ^
   /tr "\"C:\Program Files (x86)\TRCCCAPEN\TRCC.exe\"" ^
-  /sc onstart ^
+  /sc onlogon ^
   /rl highest ^
-  /ru SYSTEM ^
+  /ru "INTERACTIVE" ^
   /f
-`  
-
+`
 ## Credits
 [Video Link](https://youtu.be/GMsUqOFeifs?si=tDKE1el_Sjaghc-r)
