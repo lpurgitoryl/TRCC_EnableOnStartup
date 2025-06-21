@@ -1,5 +1,5 @@
 # TRCC_EnableOnStartup
-Enable Thermalright TRCC app on system startup
+Enable Thermalright TRCC app on user login
 
 - Go to Setings > Apps > Startup
   - Disable TRCC
